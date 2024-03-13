@@ -1,3 +1,4 @@
+import 'package:app_flu/styles/Header.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -112,7 +113,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'You have pushed the button this many times:', style: HeaderStyles.textStyle,
             ),
             Text(
               '$_counter',
